@@ -1,0 +1,315 @@
+body
+{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV4f72bxQhbd6TKxvl8Kb5ncIKnu8Fkf38HA&s"); 
+    background-repeat: no-repeat; 
+    background-position:center;
+    background-size:cover;
+}
+h1{
+    color:#fff;
+    font-family:cursive;
+    display: inline-block;
+    text-align: left;
+    margin-right: 5cm;
+}
+h2{
+   font-style: italic;
+    text-align: center;
+}
+.ul
+{
+ align-items:last baseline;
+}
+span.a
+{
+ display: inline-block;
+  margin-right:3ch;
+  width: 125px;
+  height: 25px;
+  padding: 2px;
+  border: 5px solid rgb(141, 192, 179);    
+  background-color: rgb(228, 238, 235); 
+  border-radius: 20px;
+  font-family: cursive;
+  text-align: center;
+
+}
+span.b
+{
+    display: inline-block;
+    margin-right:3ch;
+    width: 120px;
+    height: 25px;
+     padding: 2px;
+     border: 5px solid rgb(141, 192, 179);    
+     background-color: rgb(228, 238, 235); 
+     border-radius: 20px;  
+     font-family: cursive; 
+     text-align: center;
+     align-items: end;
+}
+.mc
+{
+  text-align: center;
+  white-space: 10px;
+  color:#fff;
+  padding-left: 50px;
+  background-color:blue(5, 12, 51);
+}
+h3
+{
+  font-size: larger;
+    text-align:center;
+font-style: italic;
+    color:rgb(230, 229, 235);
+}
+h5{
+   font-size: medium;
+   text-align: center;
+   font-style: italic;
+   font-family: cursive;
+}
+p
+{
+    font-size: larger;
+    text-align:center;
+  font-family:cursive;
+    font-style: italic;
+}  
+section.a
+{
+text-align: left;
+ font-family:cursive;
+ line-height: 0cm;
+ font-style: italic;
+} 
+div.info
+{
+  font-family:cursive;
+  font-style: italic;
+  font-size: larger;
+  font-weight: bold;
+}
+.main-section1
+{
+  display:grid;
+  grid-template-columns:auto auto auto;
+ row-gap: 30px;
+ padding-top: 30px;
+}
+.medication-card
+{
+display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px black;
+  padding:4px;
+  text-align:center;
+  width:300px;
+  height:200px;
+  column-gap: 20px;
+}
+.medication-card a
+{
+  margin:10px 0;
+  font-size: 1.2rem;
+  color:#0077c0;
+}
+.medication-card h3
+{
+ color:rgb(5, 37, 74);
+}
+.medication-card h2
+{
+  color:rgb(117, 5, 5);
+  text-decoration: line-through;
+}
+#b3
+{
+  height:60px;
+  width:250px;
+  border-radius: 50px;
+  text-align: center;
+  white-space: 10px;
+  background-color:darkslateblue;
+  color:#fff;
+  margin-top: 30px;
+  padding-left: 50px;
+}
+.gallery {
+  position:relative;
+  width: 50%;
+ align-items: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  font-family: cursive;
+  font-style: italic;
+  transition: .5s ease;
+  background-color:lavender;
+}
+
+.gallery:hover .overlay {
+  opacity: 1;
+}
+
+.name {
+  color:black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+div.gallery
+{
+  display:inline-block;
+  width:200px;
+  margin:5px 5px 5px 5px;
+  border: 3px solid rgb(141, 192, 179);
+  align-items: center;
+  border-radius: 10px;
+}
+
+#b1
+{
+  height:50px;
+  width:250px;
+  font-size: medium;
+  font-weight: 300;
+  background-color: beige;
+  color:black;
+  border-radius: 30px;
+  margin:0px 15px 10px 150px;
+  font-weight: 600;
+}
+#b2
+{
+  height:50px;
+  width:200px;
+  font-size: medium;
+  font-weight: 300;
+  background-color: rgb(5, 12, 51);
+  color:#fff;
+  border-radius: 30px;
+  margin:50px 500px 50px;
+  font-weight: 600;
+}
+#b3
+{
+  height:50px;
+  width:200px;
+  font-size: medium;
+  font-weight: 300;
+  background-color: rgb(107, 122, 198);
+  color:#fff;
+  border-radius: 30px;
+  margin:50px 500px 50px;
+  font-weight: 600;
+}
+.md
+{
+  display:inline-block;
+  border: 3px solid rgb(93, 22, 22);
+  align-items: center;
+ text-align: center;
+  width:700px;
+  height:auto;
+  border-radius: 30%;
+  margin:10px 40px 10px 50px;
+  padding:10px;
+}
+.md img
+{  
+  align-content: center;
+  align-items: center;
+  border-radius:30%;
+  width:250px;
+  height:150px;
+   
+}
+.footer
+{
+ background-color:black;
+ width:1255px;
+}
+.footer h3
+{
+  color:#fff;
+  width:400px;
+  font-style:italic;
+  font-family: cursive;
+  font-weight: 500;
+  margin:25px 25px 25px;
+}
+.footer p
+{
+  color:#fff;
+  width:400px;
+  font-style:italic;
+  font-family: cursive;
+  font-weight: 500;
+  margin:25px 25px 25px;
+}
+.grid-container
+{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-gap:50px;
+}
+.grid-container h2
+{
+  color:darkred;
+  font-style: italic;
+  font-family: cursive;
+}
+.grid-container > div
+{
+  .item1 { grid-area: 1 / 1 / 2 / 2; }
+}
+.social-links h3
+{
+   font-family: cursive;
+   font-style: italic;
+}
+.social-links a
+{
+  display:inline-flex;
+  padding:10px;
+  width:90px;
+  height:100px;
+}
+.links
+{
+  display:block;
+  font-family: cursive;
+  font-style: italic;
+  color:#fff;
+  text-align:left;
+}
+.links2
+{
+  display:block;
+  font-family: cursive;
+  font-style: italic;
+  color:#fff;
+  text-align:left;
+  padding:10px;
+}
