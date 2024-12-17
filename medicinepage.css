@@ -1,0 +1,202 @@
+
+        body {
+            margin: 0;
+            font-family: cursive;
+            font-style: italic;
+            background-color: lightblue;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #FFFFFF;
+        }
+
+        .header img {
+            width: 150px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-section {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .main-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .medications {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .medication-card {
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+        }
+
+        .medication-card h3 {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #0077C0;
+        }
+
+        .medication-card .price {
+            font-size: 1.5rem;
+            color: #D9534F;
+            font-weight: bold;
+        }
+
+        .medication-card  h2 {
+            color:#D9534F;
+            text-decoration: line-through;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0077C0;
+            color: #FFF;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .button-container a:hover {
+            background-color: #005A9E;
+        }
+
+        .medication-card::before {
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 10px;
+            background-image: url('pill-icon.png'); /* Replace with the actual image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .slider-container {
+            position: relative;
+            max-width: 100%;
+            margin: 40px auto;
+            overflow: hidden;
+        }
+
+        .slider-images {
+            display: flex;
+            transition: transform 0.56 ease;
+        }
+
+        .slider-images img {
+            max-width: 100%;
+            display: block;
+            height: auto;
+        }
+
+        .slider-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .slider-nav button {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .slider-nav button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+
+  
+        .see-all-medication{
+            text-align: center;
+        }
+        .see-all-medication a{
+            text-decoration: none;
+            background-color: #0077C0;
+            border-radius: 10px;
+            padding: 10px;
+            color: #FFF;
+        }
+        .main-section {
+            text-align: center;
+            width: 70%;
+            margin: auto;
+        }
+    
+        .scrollable-cards-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px;
+            scroll-snap-type: x mandatory; /* Enables snapping */
+            
+        }
+    
+        .medication-card {
+            flex: 0 0 auto;
+            width: 200px; /* Set card width */
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            background: #f9f9f9;
+            text-align: center;
+            scroll-snap-align: start; /* Snaps the card to the start of the container */
+        }
+        
+    
+        /* Add smooth scrolling */
+        .scrollable-cards-container::-webkit-scrollbar {
+            height: 3px;
+        }
+    
+        .scrollable-cards-container::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 4px;
+        }
+    
+        .scrollable-cards-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .scrollable-cards-container {
+         scrollbar-width: thin; /* Thin scrollbar for Firefox */
+         scrollbar-color: #bbb #f1f1f1; /* Thumb color and track color */
+        }
+  
