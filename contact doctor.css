@@ -35,7 +35,6 @@ h3
     color:rgb(7, 27, 39);
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
 }
 .a
 {
@@ -143,7 +142,7 @@ p
 .footer
 {
  background-color:black;
- width:1255px;
+ width: 100%;
 }
 .footer h3
 {
