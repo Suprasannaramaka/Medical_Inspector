@@ -35,7 +35,7 @@ h3
     color:rgb(7, 27, 39);
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
+    text-decoration:none;
 }
 .a
 {
@@ -50,7 +50,7 @@ p
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
     color:rgb(59, 59, 161);
-    text-align:left;
+    text-align:center;
 }
 h1
 {
@@ -58,6 +58,7 @@ h1
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:black;
     text-align: center;
+    padding-top: 30px;
 }
 p
 {
@@ -101,8 +102,8 @@ p
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height:400px;
+    width: 280px;
+    height:280px;
     border-radius: 50%;
 }
 .links
