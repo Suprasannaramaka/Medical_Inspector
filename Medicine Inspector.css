@@ -204,6 +204,12 @@ div.gallery
   align-items: center;
   margin:0px 15px 10px 150px;
 }
+.see-all a
+{
+  font-style: italic;
+  text-decoration: none;
+  color:#fff;
+}
 .md
 {
   display:inline-block;
