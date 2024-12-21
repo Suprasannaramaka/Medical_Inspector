@@ -214,10 +214,11 @@ div.gallery
   border-radius: 10px;
 }
 
-#b1
+.see-all
 {
-  height:50px;
-  width:250px;
+  height:20px;
+  width:auto;
+  text-align: center;
   font-size: medium;
   font-weight: 300;
   background-color: beige;
