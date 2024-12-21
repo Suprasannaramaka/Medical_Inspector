@@ -190,7 +190,7 @@ div.gallery
 
 .see-all
 {
-  height:50px;
+  height:20px;
   width:250px;
   font-size: medium;
   font-weight: 300;
@@ -199,6 +199,7 @@ div.gallery
   border-radius: 10px;
   margin:0px 15px 10px 150px;
   font-weight: 600;
+  padding: left 200px;
 }
 .md
 {
