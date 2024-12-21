@@ -188,40 +188,16 @@ div.gallery
   border-radius: 10px;
 }
 
-#b1
+.see-all
 {
   height:50px;
   width:250px;
   font-size: medium;
   font-weight: 300;
-  background-color: beige;
-  color:black;
-  border-radius: 30px;
+  background-color:black;
+  color:#fff;
+  border-radius: 10px;
   margin:0px 15px 10px 150px;
-  font-weight: 600;
-}
-#b2
-{
-  height:50px;
-  width:200px;
-  font-size: medium;
-  font-weight: 300;
-  background-color: rgb(5, 12, 51);
-  color:#fff;
-  border-radius: 30px;
-  margin:50px 500px 50px;
-  font-weight: 600;
-}
-#b3
-{
-  height:50px;
-  width:200px;
-  font-size: medium;
-  font-weight: 300;
-  background-color: rgb(107, 122, 198);
-  color:#fff;
-  border-radius: 30px;
-  margin:50px 500px 50px;
   font-weight: 600;
 }
 .md
