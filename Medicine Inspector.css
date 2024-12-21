@@ -105,8 +105,8 @@ display: inline-block;
   box-shadow: 0 4px 6px black;
   padding:4px;
   text-align:center;
-  width:300px;
-  height:200px;
+  width: 300px;
+  height: 200px;
   column-gap: 20px;
 }
 .medication-card a
@@ -229,7 +229,7 @@ div.gallery
   display:inline-block;
   border: 3px solid rgb(93, 22, 22);
   align-items: center;
- text-align: center;
+  text-align: center;
   width:700px;
   height:auto;
   border-radius: 30%;
@@ -248,7 +248,7 @@ div.gallery
 .footer
 {
  background-color:black;
- width:100%;
+ width:1255px;
 }
 .footer h3
 {
