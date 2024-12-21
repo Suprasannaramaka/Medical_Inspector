@@ -192,6 +192,7 @@ div.gallery
 {
   height:20px;
   width:120px;
+  text-align: center;
   font-size: medium;
   font-style: italic;
   font-weight: 300;
@@ -199,7 +200,6 @@ div.gallery
   color:#fff;
   border-radius: 10px;
   align-content: center;
-  padding-left: 250px;
   align-items: center;
 }
 .md
