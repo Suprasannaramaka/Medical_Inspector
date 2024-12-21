@@ -236,11 +236,14 @@ div.gallery
 .footer h3
 {
   color:#fff;
-  width:400px;
+  width:max-content;
+  height:max-content;
   font-style:italic;
   font-family: cursive;
   font-weight: 500;
   margin:25px 25px 25px;
+  text-align: justify;
+  padding-left: 120px;
 }
 .footer p
 {
