@@ -110,7 +110,7 @@ div.info
 }
 .medication-card
 {
-display: inline-block;
+  display: inline-block;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 4px 6px black;
