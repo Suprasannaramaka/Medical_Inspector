@@ -109,15 +109,9 @@ div.info
 {
   display:grid;
   grid-template-columns:repeat(3 , 1fr);
-  grid-template-columns:repeat(3 , 1fr);
  row-gap: 30px;
  column-gap: 40px;
- column-gap: 40px;
  padding-top: 30px;
- text-align: center !important;
- justify-content: center !important;
- width:80%;
- margin:0 auto;
  text-align: center !important;
  justify-content: center !important;
  width:80%;
@@ -125,7 +119,6 @@ div.info
 }
 .medication-card
 {
-  display: inline-block;
   display: inline-block;
   background-color: #fff;
   border-radius: 5px;
@@ -233,27 +226,18 @@ div.gallery
 
 #b2
 {
-  height:50px;
-  width:250px;
-  font-size: medium;
-  font-weight: 300;
-  background-color: beige;
-  color:black;
-  border-radius: 30px;
-  margin:0px 15px 10px 150px;
-  font-weight: 600; 
+  display:flex;
+  align-items: center;
+ justify-content: center;
+ margin-top: 40px;
 }
-#b3
+.see-all a
 {
-  height:50px;
-  width:200px;
-  font-size: medium;
-  font-weight: 300;
-  background-color: rgb(107, 122, 198);
+  background-color: rgb(0, 0, 0);
+  padding: 6px;
+  border-radius: 50px;
   color:#fff;
-  border-radius: 30px;
-  margin:50px 500px 50px;
-  font-weight: 600;
+  text-decoration: none;
 }
 .md
 {
