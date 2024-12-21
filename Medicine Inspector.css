@@ -23,7 +23,7 @@ h2{
 span.a
 {
  display: inline-block;
-  margin-right:3ch;
+  margin-right: 3ch;
   width: 125px;
   height: 25px;
   padding: 2px;
@@ -32,12 +32,11 @@ span.a
   border-radius: 20px;
   font-family: cursive;
   text-align: center;
-
 }
 span.b
 {
     display: inline-block;
-    margin-right:3ch;
+    margin-right: 3ch;
     width: 120px;
     height: 25px;
      padding: 2px;
@@ -141,6 +140,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-top: 40px;
+text-align: center;
 }
 .see-all a
 {
@@ -214,21 +214,6 @@ div.gallery
   border-radius: 10px;
 }
 
-.see-all
-{
-  height:30px;
-  width:250px;
-  text-align: center;
-  font-size: medium;
-  font-weight: 300;
-  font-style: italic;
-  color:#fff;
-  background-color: black;
-  border-radius: 30px;
-  margin:0px 15px 10px 150px;
-  font-weight: 600;
-  
-}
 #b2
 {
   height:50px;
@@ -282,12 +267,12 @@ width: 100%;
 .footer h3
 {
   color:#fff;
-  width:400px;
+  width: 400px;
   font-style:italic;
   font-family: cursive;
   font-weight: 500;
- padding-left: 100px;
-  text-align:center;
+  padding-left: 100px;
+  text-align: center;
 }
 footer h1
 { 
