@@ -191,11 +191,10 @@ div.gallery
 .see-all
 {
   height:20px;
-  width:120px;
+  width:200px;
   text-align: center;
   font-size: medium;
   font-style: italic;
-  font-weight: 300;
   background-color:black;
   color:#fff;
   border-radius: 10px;
