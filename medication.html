@@ -6,6 +6,31 @@
     <title>Medication Search</title>
     <link rel="stylesheet" href="/medication.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      table {
+          width: 100%;
+          border-collapse: collapse;
+      }
+
+      th, td {
+          padding: 8px;
+          text-align: left;
+          border: 1px solid #ddd;
+      }
+
+      th {
+          background-color: #4CAF50;
+          color: white;
+      }
+
+      tr:nth-child(even) {
+          background-color: #f9f9f9;
+      }
+
+      tr:hover {
+          background-color: #f1f1f1;
+      }
+  </style>
   </head>
   <body>
     <header>
@@ -111,6 +136,11 @@
     
     </div>
 
-
+    <select id="healthConditionDropdown">  <!-- Corrected the ID here -->
+      <option value="anti_fungal">Anti-Fungal</option>
+      <option value="anti_bacterial">Anti-Bacterial</option>
+  </select>
+  <button onclick="fetchMedication()">Get Data</button>
+  <div id="MedicationData"></div>
   </body>
 </html>
