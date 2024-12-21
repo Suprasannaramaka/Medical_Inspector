@@ -56,8 +56,8 @@ h1
 {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
-    text-align: center;
+    color: #fff;
+    text-align: left;
     padding-top: 30px;
 }
 p
@@ -118,8 +118,8 @@ p
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    width:500px;
-    height:500px;
+    width: 440px;
+    height: 500px;
     border-radius: 100%;
     padding-right: 20%;
    text-align: center;
