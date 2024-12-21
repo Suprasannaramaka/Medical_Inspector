@@ -1,0 +1,67 @@
+body {
+  font-family: cursive;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  background-color: #f4faf4;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0akUuIpgVN4RaFMGYfUxhN3o_-dLrYnnBMw&s");
+  background-size:contain;
+}
+header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: #0073e6;
+  padding: 20px;
+  font-weight: bold;
+}
+.main {
+  text-align: center;
+  padding: 50px 20px;
+}
+.main h1 {
+  font-size: 36px;
+  color:#fff;
+}
+.main p {
+  font-size: 18px;
+  color:#fff;
+  margin: 20px 0;
+}
+.features {
+  justify-content: center;
+  gap: 40px;
+  margin: 0 auto;
+  margin-top: 40px;
+
+}
+.features .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.feature {
+  text-align: center;
+  max-width: 200px;
+  padding:40px;
+}
+.feature img {
+  width: 50px;
+  height: 50px;
+}
+footer {
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}

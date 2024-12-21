@@ -31,9 +31,9 @@ h3
 {
     font-size:large;
     font-style:normal;
-    font-weight: 400;
+    font-weight: 300;
     color:rgb(7, 27, 39);
-    text-align: left;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration:none;
 }
@@ -56,8 +56,8 @@ h1
 {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
-    text-align: center;
+    color: #fff;
+    text-align: left;
     padding-top: 30px;
 }
 p
@@ -118,8 +118,8 @@ p
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    width:500px;
-    height:500px;
+    width: 440px;
+    height: 500px;
     border-radius: 100%;
     padding-right: 20%;
    text-align: center;
@@ -190,8 +190,8 @@ p
 }
 .social-links a
 {
-  display:inline-flex;
-  padding:10px;
-  width:90px;
-  height:100px;
+  display: inline-flex;
+  padding: 10px;
+  width: 90px;
+  height: 100px;
 }
