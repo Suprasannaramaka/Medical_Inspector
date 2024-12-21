@@ -20,6 +20,20 @@ h2{
 {
  align-items:last baseline;
 }
+span.b
+{
+  display: inline-block;
+    margin-right:3ch;
+    width: 120px;
+    height: 25px;
+     padding: 2px;
+     border: 5px solid rgb(141, 192, 179);    
+     background-color: rgb(228, 238, 235); 
+     border-radius: 20px;  
+     font-family: cursive; 
+     text-align: center;
+     align-items: end;
+}
 span.a
 {
  display: inline-block;
@@ -34,27 +48,13 @@ span.a
   text-align: center;
 
 }
-span.b
-{
-    display: inline-block;
-    margin-right:3ch;
-    width: 120px;
-    height: 25px;
-     padding: 2px;
-     border: 5px solid rgb(141, 192, 179);    
-     background-color: rgb(228, 238, 235); 
-     border-radius: 20px;  
-     font-family: cursive; 
-     text-align: center;
-     align-items: end;
-}
+
 .mc
 {
   text-align: center;
   white-space: 10px;
   color:#fff;
-  padding-left: 50px;
-  background-color:blue(5, 12, 51);
+  background-color:rgb(2, 2, 31);
 }
 h3
 {
@@ -192,7 +192,6 @@ div.gallery
   align-items: center;
   border-radius: 10px;
 }
-
 .see-all
 {
   display:flex;
@@ -256,7 +255,7 @@ div.gallery
 {
   display:grid;
   grid-template-columns: auto auto;
-  grid-gap:50px;
+  grid-gap:20px;
 }
 .grid-container h2
 {
@@ -266,7 +265,7 @@ div.gallery
 }
 .grid-container > div
 {
-  .item1 { grid-area: 1 / 1 / 2 / 2; }
+  .item1 { grid-area: 1 / 1 / 2 / 2 };
 }
 .social-links h3
 {
