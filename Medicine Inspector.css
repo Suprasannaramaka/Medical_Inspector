@@ -190,14 +190,16 @@ div.gallery
 
 .see-all
 {
-  height:10px;
-  width:120px;
+  height:20px;
+  width:200px;
   font-size: medium;
   font-weight: 300;
   background-color:black;
   color:#fff;
   border-radius: 10px;
   font-weight: 300;
+  align-content: center;
+  padding-left: 250px;
 }
 .md
 {
