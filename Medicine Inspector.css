@@ -202,13 +202,13 @@ div.gallery
   border-radius: 30px;
   align-content: center;
   align-items: center;
-  margin:0px 40px 10px 400px;
 }
 .see-all a
 {
   font-style: italic;
   text-decoration: none;
   color:#fff;
+  margin:0px 40px 10px 400px;
 }
 .md
 {
