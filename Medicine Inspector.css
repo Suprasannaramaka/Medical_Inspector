@@ -191,7 +191,7 @@ div.gallery
 .see-all
 {
   height:20px;
-  width:200px;
+  width:auto;
   text-align: center;
   font-size: medium;
   font-style: italic;
