@@ -104,10 +104,12 @@ display: inline-block;
   border-radius: 5px;
   box-shadow: 0 4px 6px black;
   padding:4px;
+  margin-left:50px;
+  margin-right: 50px;
   text-align:center;
   width:300px;
   height:200px;
-  column-gap: 20px;
+  gap: 0px;
 }
 .medication-card a
 {
@@ -190,16 +192,17 @@ div.gallery
 
 .see-all
 {
-  height:20px;
-  width:auto;
+  height:30px;
+  width:250px;
   text-align: center;
   font-size: medium;
   font-style: italic;
   background-color:black;
-  color:#fff;
-  border-radius: 10px;
+   color: #fff;
+  border-radius: 30px;
   align-content: center;
   align-items: center;
+  margin:0px 15px 10px 150px;
 }
 .md
 {
