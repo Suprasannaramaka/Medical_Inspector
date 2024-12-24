@@ -95,15 +95,14 @@ div.info
   background-color: #fff;
   border-radius: 40px;
   box-shadow: 0 4px 6px black;
-  padding:4px;
   text-align:center;
-  width:250px;
-  height:200px;
+  width:240px;
+  height:190px;
   column-gap: 20px;
 }
 .medication-card a
 {
-  margin:10px 0;
+ margin-top: 10px;
   font-size: 1.2rem;
   color:#0077c0;
 }
@@ -220,7 +219,7 @@ div.gallery
 .footer
 {
  background-color:black;
- width:100%;
+ width:auto;
 }
 .footer h3
 {
