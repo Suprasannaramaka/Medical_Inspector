@@ -64,7 +64,7 @@
  <div class="signup-page">
     <p>SIGN-IN</p>
     <br><br>
-   <form action="/submit" id="myForm">
+   <form id="myForm">
     <label for="email"><h3>Enter your EmailId:</h3>
  <input type="email" id="EmailId" name="EmailId"/></label><br>
  <label for="password"><h3>Password:</h3>
@@ -73,25 +73,8 @@
  </form>
  
     </div>
-
-
-    <script>
-        document.getElementById('myForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-        
-            const name = document.getElementById('name').value;
-            console.log('Name:', name);
     
-            fetch('/submit', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ name: name })
-            })
-            .then(response => response.text()) // Corrected this line
-            .then(data => console.log(data))
-            .catch(error => console.error('Error:', error)); // Added error handling
-        });
-    </script>
-    
+
+    <script src="../scripts/script.js"></script>
 </body>
 </html>

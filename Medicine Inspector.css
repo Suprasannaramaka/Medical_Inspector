@@ -20,35 +20,22 @@ h2{
 {
  align-items:last baseline;
 }
-span.b
+.nav h5
 {
   display: inline-block;
-    margin-right:3ch;
-    width: 120px;
-    height: 25px;
-     padding: 2px;
-     border: 5px solid rgb(141, 192, 179);    
-     background-color: rgb(228, 238, 235); 
-     border-radius: 20px;  
-     font-family: cursive; 
-     text-align: center;
-     align-items: end;
-}
-span.a
-{
- display: inline-block;
-  margin-right:3ch;
-  width: 125px;
+  margin-right:1ch;
+  width: 120px;
   height: 25px;
-  padding: 2px;
-  border: 5px solid rgb(141, 192, 179);    
-  background-color: rgb(228, 238, 235); 
-  border-radius: 20px;
-  font-family: cursive;
-  text-align: center;
-
+   padding: 2px;
+   border: 2px solid rgb(141, 192, 179);    
+   background-color: #fff; 
+   color:black;
+   border-radius: 20px;  
+   font-family: cursive; 
+   text-align: center;
+   align-items: end;
+   text-decoration: none; 
 }
-
 .mc
 {
   text-align: center;
@@ -58,9 +45,9 @@ span.a
 }
 h3
 {
-  font-size: larger;
+   font-size: larger;
     text-align:center;
-font-style: italic;
+    font-style: italic;
     color:rgb(230, 229, 235);
 }
 h5{
@@ -106,11 +93,11 @@ div.info
 {
   display: inline-block;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 40px;
   box-shadow: 0 4px 6px black;
   padding:4px;
   text-align:center;
-  width:300px;
+  width:250px;
   height:200px;
   column-gap: 20px;
 }
@@ -123,6 +110,8 @@ div.info
 .medication-card h3
 {
  color:rgb(5, 37, 74);
+ border:none;
+ 
 }
 .medication-card h2
 {

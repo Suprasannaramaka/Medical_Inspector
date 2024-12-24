@@ -59,3 +59,42 @@ function getUsers() {
 
 // Call the getUsers function to load data when the page is ready
 document.addEventListener('DOMContentLoaded', getUsers);
+
+
+
+
+// Function to handle signup
+function signup(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    const email = document.getElementById('EmailId').value;
+    const password = document.getElementById('password').value;
+    const url = 'http://139.59.37.38/medicine_inspector/signup.php';
+
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`,
+    })
+        .then(response => {
+            if (response.ok) {
+                return response.text();
+            } else {
+                throw new Error('Signup failed');
+            }
+        })
+        .then(result => {
+            console.log('Signup successful:', result);
+            alert('Signup successful!');
+            window.location.href = 'Medicine Inspector.html';
+        })
+        .catch(error => {
+            console.error('Error during signup:', error);
+            alert('Signup failed. Please try again.');
+        });
+}
+
+// Attach the function to the form's submit event
+document.getElementById('myForm').addEventListener('submit', signup);
