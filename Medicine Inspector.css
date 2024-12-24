@@ -220,6 +220,7 @@ div.gallery
 {
  background-color:black;
  width:auto;
+ height:auto;
 }
 .footer h3
 {
@@ -247,6 +248,7 @@ div.gallery
   display:grid;
   grid-template-columns: auto auto;
   grid-gap:20px;
+  width:auto;
 }
 .grid-container h2
 {
@@ -289,25 +291,25 @@ div.gallery
 }
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .example {background: red;}
+  .footer{background-color: black;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .example {background: green;}
+  .footer{background-color: black;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .example {background: blue;}
+  .footer{background-color: black;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .example {background: orange;}
+ .footer{background-color: black;}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .example {background: pink;}
+  .footer{background-color: black;}
 }
