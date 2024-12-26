@@ -11,8 +11,9 @@ body
 }
 .image
 {
-    display:grid;
-    padding-block: 0px 0px 0px 0px;
+    display:block;
+   padding-left: 50px;
+   padding-right: 100px;
 }
 #connect h1{
     color:blue;
@@ -62,9 +63,16 @@ p
     font-style: italic;
     font-family: cursive;
 }
+.button
+{
+    background-color:#96a0b4;
+    width:max-content;
+    height: max-content;
+    border-radius: 50px;
+}
 #download
 {
-    height:70px;
+    height:50px;
     align-items: center;
     text-align: center;
     text-align: justify;
@@ -73,13 +81,13 @@ p
 }
 #download h1
 {
-    color:#fff;
+    color:black;
     font-family: cursive;
-    padding:10px;
     justify-content:center;
-    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
 }
-
 #info 
 {
     text-align:center;
