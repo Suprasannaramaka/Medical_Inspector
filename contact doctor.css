@@ -12,8 +12,8 @@ body
 .image
 {
     display:inline-block;
-    text-align: center;
-    padding-right: 200px;
+   text-align: center;
+   padding-right: 400px;
 }
 #connect h1{
     color:blue;
