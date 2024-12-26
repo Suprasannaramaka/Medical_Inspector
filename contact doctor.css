@@ -11,7 +11,8 @@ body
 }
 .image
 {
-    display:contents;
+    display:grid;
+    padding-block: 0px 0px 0px 0px;
 }
 #connect h1{
     color:blue;
