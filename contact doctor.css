@@ -11,7 +11,7 @@ body
 }
 .image
 {
-    display:block;
+    display:contents;
 }
 #connect h1{
     color:blue;
