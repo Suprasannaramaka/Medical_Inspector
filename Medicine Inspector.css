@@ -248,7 +248,10 @@ div.gallery
   display:grid;
   grid-template-columns: auto auto;
   grid-gap:20px;
+  grid-column-start: auto;
   width:auto;
+ padding-bottom: 30px;
+ padding-right: 100px;
 }
 .grid-container h2
 {
