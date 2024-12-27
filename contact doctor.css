@@ -17,16 +17,15 @@ body
 }
 h2
 {
-    font-size:xx-large;
+    font-size:medium;
     font-weight: italic;
     color:blue;
     font-style: italic;
-    text-align:justify;
+    text-align:center;
 }
-#connect h2{
-   font-style: italic;
+#connect
+{
     text-align: center;
-     color:black;
 }
 h3
 {

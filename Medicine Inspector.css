@@ -9,7 +9,7 @@ h1{
     color:#fff;
     font-family:cursive;
     display: inline-block;
-    text-align: left;
+    text-align:center;
     margin-right: 5cm;
 }
 h2{
@@ -186,7 +186,7 @@ text-decoration: none;
 }
 
 .image {
-  display: block;
+  display:block;
   width: 100%;
   height: auto;
 }
