@@ -260,8 +260,5 @@ function signup(event) {
         });
 }
 
-// Attach the function to the form's submit event
-document.getElementById('myForm').addEventListener('submit', signup);
-
 
 
