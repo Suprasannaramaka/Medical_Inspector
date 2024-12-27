@@ -37,10 +37,8 @@ function fetchMedication() {
 
 
 
-<<<<<<< HEAD
 // Call the getUsers function to load data when the page is ready
 document.addEventListener('DOMContentLoaded', getUsers);
-=======
 
  // Add an event listener to the health_condition dropdown
 //  document.getElementById('health_condition').addEventListener('change', function() {
@@ -183,12 +181,10 @@ document.addEventListener('DOMContentLoaded', getUsers);
      // Insert table into the div
      document.getElementById('medicineTable').innerHTML = tableHTML;
  }
->>>>>>> origin/ajay
 
 
 
 
-<<<<<<< HEAD
 // Function to handle signup
 function signup(event) {
     event.preventDefault(); // Prevent the default form submission
@@ -224,8 +220,6 @@ function signup(event) {
 
 // Attach the function to the form's submit event
 document.getElementById('myForm').addEventListener('submit', signup);
-=======
 
 
 
->>>>>>> origin/ajay
