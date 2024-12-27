@@ -34,26 +34,12 @@ span.a
   text-align: center;
   text-decoration: none;
 }
-span.b
-{
-  display: inline-block;
-  margin-right: 1ch;
-  width: 125px;
-  height: 25px;
-  padding: 2px;
-  border: 5px solid rgb(141, 192, 179);    
-  background-color: rgb(228, 238, 235); 
-  border-radius: 20px;
-  font-family: cursive;
-  text-align: center;
-}
 .top-inks{
   display: flex;
   align-items: end;
   justify-content: space-between;
   margin-bottom: 30px;
 }
-
 .mc
 {
   text-align:center;
@@ -295,7 +281,7 @@ footer h1
   display:contents;
   background-color:darkblue;
   align-content: right;
-  text-align: right;
+  text-align:center;
 }
 .footer p
 {
