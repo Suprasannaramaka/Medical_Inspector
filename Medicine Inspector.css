@@ -27,11 +27,12 @@ span.tab
   width: 125px;
   height: 25px;
   padding: 2px;
-  border: 5px solid rgb(141, 192, 179);    
+  border:2px solid rgb(141, 192, 179);    
   background-color: rgb(228, 238, 235); 
   border-radius: 20px;
   font-family: cursive;
   text-align: center;
+  text-decoration: none;
 }
 .top-inks{
   display: flex;
