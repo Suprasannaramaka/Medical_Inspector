@@ -11,18 +11,17 @@ body
 .image
 {
     display:inline-block;
-    text-align: center;
-    padding-right: 200px;
+     text-align: center;
+     padding-right: 200px;
 }
 h2
 {
-    font-size:xx-large;
+    font-size:medium;
     font-weight: italic;
     color:blue;
     font-style: italic;
     text-align:center;
     font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #connect
 {
@@ -60,19 +59,13 @@ p
     color: black;
     text-align: center;
     padding-top: 30px;
+    padding-right: 400px;
 }
 p
 {
     color:rgb(43, 43, 81);
     font-style: italic;
     font-family: cursive;
-}
-.button
-{
-    background-color:#96a0b4;
-    width:max-content;
-    height: max-content;
-    border-radius: 50px;
 }
 #download
 {
