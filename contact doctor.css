@@ -129,12 +129,13 @@ p
     font-family: cursive;
     color:black;
     text-align:center;
+    padding-left: 50px;
 }
 .expectations h1
 {
     color:blue;
     font-size: larger;
-    text-align: right;
+    text-align: center;
 }
 .grid-container
 {
