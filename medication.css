@@ -332,3 +332,11 @@ tr:hover {
         .slider-nav button:hover {
             background-color: rgba(0, 0, 0, 0.8);
         }
+#health_condition_list li{
+  list-style-type: none;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+#health_condition_list li:hover{
+  color: red;
+}

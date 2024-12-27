@@ -48,6 +48,7 @@
         font-family: cursive;
         font-size: large;
         font-weight: 300;
+        padding-right: 10px;
        }
         button{
             margin: top 20px;
@@ -71,8 +72,27 @@
 <input type="password" id="password" name="passowrd"/><br><br><br>
 <button type="submit">SUBMIT</button>
  </form>
- 
     </div>
+<<<<<<< HEAD
+=======
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+        
+            const name = document.getElementById('name').value;
+            console.log('Name:', name);
+    
+            fetch('/submit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: name })
+            })
+            .then(response => response.text()) // Corrected this line
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error)); // Added error handling
+        });
+    </script>
+>>>>>>> origin/ajay
     
 
     <script src="../scripts/script.js"></script>
