@@ -35,20 +35,12 @@
   <body>
     <header>
       <div class="logo">Medicine Inspector</div>
-      <nav>
-        <ul>
-          <li><a href="#">For Providers</a></li>
-          <li><a href="#">Medications</a></li>
-          <li><a href="#">Contact Doctor</a></li>
-          <li><a href="#" class="sign-up">Sign Up</a></li>
-        </ul>
-      </nav>
     </header>
 
     <div style="text-align: center;margin-top:50px;">
       <h1>Medication</h1>
     </div>
-
+    
     <main>
 
     <section class="banner">
@@ -62,40 +54,41 @@
   
       <div class="category-section">
         <div class="row">
+          <a href="#">All Medications</a>
           <div class="category-list">
-            <a href="#">All Medications</a>
-            <a href="#">Gliptarget M 500mg</a>
-            <a href="#">Biguandies</a>
-            <a href="#">Insulin</a>
-            <a href="#">Lisinopril</a>
-            <a href="#">Sulfonylurea</a>
+            <a href="#">Acetic Acid</a>
+            <a href="#">Bacitracin</a>
+            <a href="#">Cefaclor</a>
+            <a href="#">Doxycycline</a>
+            <a href="#">Gatifloxacin</a>
+            <a href="#">Isoniazid</a>
           </div>
 
           <div class="category-list">
-            <a href="#">All Medications</a>
-            <a href="#">Gliptarget M 500mg</a>
-            <a href="#">Biguandies</a>
-            <a href="#">Insulin</a>
-            <a href="#">Lisinopril</a>
-            <a href="#">Sulfonylurea</a>
+            <a href="#">Acetic Acid</a>
+            <a href="#">Ciclopirox</a>
+            <a href="#">Econazole Nitrate</a>
+            <a href="#">Griseofulvin Microsize</a>
+            <a href="#">Posaconazole</a>
+            <a href="#">Terconazole</a>
           </div>
 
           <div class="category-list">
-            <a href="#">All Medications</a>
-            <a href="#">Gliptarget M 500mg</a>
-            <a href="#">Biguandies</a>
-            <a href="#">Insulin</a>
-            <a href="#">Lisinopril</a>
-            <a href="#">Sulfonylurea</a>
+            <a href="#">Azelastine Hcl</a>
+            <a href="#">Cromolyn Sodium</a>
+            <a href="#">Diphenhydramine Hcl</a>
+            <a href="#">Flunisolide</a>
+            <a href="#">Mometasone Furoate</a>
+            <a href="#">Promethegan</a>
           </div>
 
           <div class="category-list">
-            <a href="#">All Medications</a>
-            <a href="#">Gliptarget M 500mg</a>
-            <a href="#">Biguandies</a>
-            <a href="#">Insulin</a>
-            <a href="#">Lisinopril</a>
-            <a href="#">Sulfonylurea</a>
+            <a href="#">Acyclovir</a>
+            <a href="#">Cefdinir</a>
+            <a href="#">Dicloxacillin Sodium</a>
+            <a href="#">Entecavir</a>
+            <a href="#">Fluconazole</a>
+            <a href="#">Gatifloxacin</a>
           </div>
         </div>
         
@@ -105,68 +98,25 @@
 
     <div class="Medicines_data">
       <div class="title" style="text-align:center; padding: 30px;">
-        <h2>All Medications
-        </h2>
+        <h2>All Medications</h2>
         <p>Is your medication out of stock?</p>
       </div>
-      <div class="table-responsive">
-        <table>
-            <thead>
-                <tr>
-                    <th>Medication Form</th>
-                    <th>Retail Price</th>
-                    <th>Our Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Gliptarget M 500MG</td>
-                    <td><s>81.61</s></td>
-                    <td>70</td>
-                </tr>
-                <tr>
-                    <td>Biguandies (Glucophage)</td>
-                    <td><s>500</td></s></td>
-                    <td>400</td>
-                </tr>
-                <tr>
-                    <td>Insulin</td>
-                    <td><s>700</s></td>
-                    <td>600</td>
-                </tr>
-            </tbody>
-        </table>
     </div>
     
-    </div>
 
-    <select id="healthConditionDropdown">  <!-- Corrected the ID here -->
-      <option value="anti_fungal">Anti-Fungal</option>
-      <option value="anti_bacterial">Anti-Bacterial</option>
-  </select>
-  <button onclick="fetchMedication()">Get Data</button>
-  <div id="MedicationData"></div>
+  <label for="health_condition">Select Health Condition:</label>
+  <ul id="health_condition_list">
+    <li data-condition="Anti-bacterial">Anti-bacterial</li>
+    <li data-condition="Anti-fungal">Anti-fungal</li>
+    <li data-condition="Allergies">Allergies</li>
+    <li data-condition="Infection">Infection</li>
+    <!-- Add more items as needed -->
+</ul>
+
+  <div id="medicineTable"></div>
+
+
   
-
-
-
-
-
-  <h1>Users</h1>
-    <table id="usersTable">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Phone</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Data will be filled by JS -->
-        </tbody>
-    </table>
-
-<script src="/scripts/script.js"></script>
-  </body>
+  <script src="./scripts/script.js"></script>
+</body>
 </html>

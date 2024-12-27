@@ -8,32 +8,32 @@ body
  background-size:contain;
  background-color:lavender;
 }
-#connect
-{
-    text-align: center;
-
-}
 .image
 {
     display:inline-block;
-    text-align: center;
+     text-align: center;
+     padding-right: 200px;
 }
 h2
 {
-    font-size:xx-large;
-    font-weight: bold;
+    font-size:medium;
+    font-weight: italic;
     color:blue;
-    text-align: center;
+    font-style: italic;
+    text-align:center;
     font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#connect
+{
+    text-align: center;
 }
 h3
 {
     font-size:large;
     font-style:normal;
-    font-weight: 400;
+    font-weight: 300;
     color:rgb(7, 27, 39);
-    text-align: left;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration:none;
 }
@@ -52,13 +52,14 @@ p
     color:rgb(59, 59, 161);
     text-align:center;
 }
-h1
+ h1
 {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
+    color: black;
     text-align: center;
     padding-top: 30px;
+    padding-right: 400px;
 }
 p
 {
@@ -68,28 +69,23 @@ p
 }
 #download
 {
-    height:70px;
+    height:50px;
     align-items: center;
     text-align: center;
+    text-align: justify;
     margin: 0 auto;
 
 }
-#download a
+#download h1
 {
     color:#fff;
-    align-content:center;
+    align-content: center;
     font-family: cursive;
+    justify-content:center;
+    text-decoration: none;
     padding: 10px;
     border-radius: 50px;
-    background-color: rgb(23, 23, 193);
-}
-.a
-{
-    font-size: large;
-    text-align: center;
-    color:black;
-    font-family: cursive;
-    font-style: italic;
+    justify-content:center;
 }
 #info 
 {
@@ -118,8 +114,8 @@ p
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    width:500px;
-    height:500px;
+    width: 440px;
+    height: 500px;
     border-radius: 100%;
     padding-right: 20%;
    text-align: center;
@@ -132,39 +128,13 @@ p
     font-style: italic;
     font-family: cursive;
     color:black;
-    padding-right: 50%;
-    text-align: center;
+    text-align:center;
 }
 .expectations h1
 {
     color:blue;
     font-size: larger;
     text-align: right;
-}
-.footer
-{
- background-color:black;
- width:100%;
- height: 100%;
-}
-.footer h3
-{
-  color:#fff;
-  width:400px;
-  font-style:italic;
-  font-family: cursive;
-  font-weight: 500;
-  margin:25px 25px 25px;
-  text-decoration: none;
-}
-.footer p
-{
-  color:#fff;
-  width:400px;
-  font-style:italic;
-  font-family: cursive;
-  font-weight: 500;
-  margin:25px 25px 25px;
 }
 .grid-container
 {
@@ -190,8 +160,8 @@ p
 }
 .social-links a
 {
-  display:inline-flex;
-  padding:10px;
-  width:90px;
-  height:100px;
+  display: inline-flex;
+  padding: 10px;
+  width: 90px;
+  height: 100px;
 }
