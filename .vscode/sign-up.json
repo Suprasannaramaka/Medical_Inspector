@@ -1,0 +1,35 @@
+{
+    "signupPage": {
+      "title": "Signup Page",
+      "fields": [
+        {
+          "label": "Email ID",
+          "type": "email",
+          "name": "email",
+          "placeholder": "Enter your email",
+          "required": true,
+          "validation": {
+            "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$",
+            "errorMessage": "Please enter a valid email address."
+          }
+        },
+        {
+          "label": "Password",
+          "type": "password",
+          "name": "password",
+          "placeholder": "Enter your password",
+          "required": true,
+          "validation": {
+            "minLength": 8,
+            "errorMessage": "Password must be at least 8 characters long."
+          }
+        }
+      ],
+      "submitButton": {
+        "label": "Sign Up",
+        "action": "/signup",
+        "method": "POST"
+      }
+    }
+  }
+  

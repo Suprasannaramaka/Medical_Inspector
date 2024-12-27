@@ -1,3 +1,45 @@
+function signup(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    const email = document.getElementById('EmailId').value;
+    const password = document.getElementById('password').value;
+    const url = 'http://139.59.37.38/medicine_inspector/signup.php';
+
+    console.log('Email:', email);
+    console.log('Password:', password);
+
+    // Use fetch API
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`,
+    })
+        .then(response => {
+            if (response.ok) {
+                return response.text();
+            } else {
+                throw new Error(`Signup failed: ${response.statusText}`);
+            }
+        })
+        .then(result => {
+            console.log('Signup successful:', result);
+            alert('Signup successful!');
+            window.location.href = 'index.html';
+        })
+        .catch(error => {
+            console.error('Error during signup:', error);
+            alert('Signup failed. Please try again.');
+        });
+}
+
+// Attach the function to the form's submit event
+document.getElementById('myForm').addEventListener('submit', signup);
+
+
+
+
 function fetchMedication() {
     const condition = document.getElementById('healthConditionDropdown').value;  // Corrected ID
     console.log('Selected health condition:', condition);
