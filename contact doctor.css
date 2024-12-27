@@ -114,12 +114,11 @@ p
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    width: 440px;
+    width: 600px;
     height: 500px;
-    border-radius: 100%;
-    padding-right: 20%;
+    border-radius: 50%;
    text-align: center;
-   margin-left: 20%;
+   margin-left: 30%;
 }
 .expectations h2
 {
@@ -129,13 +128,6 @@ p
     font-family: cursive;
     color:black;
     text-align:center;
-    padding-left: 50px;
-}
-.expectations h1
-{
-    color:blue;
-    font-size: larger;
-    text-align: center;
 }
 .grid-container
 {
