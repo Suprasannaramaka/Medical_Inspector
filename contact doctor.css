@@ -7,7 +7,6 @@ body
  background-position: center;
  background-size:contain;
  background-color:lavender;
- width:auto;
 }
 .image
 {
@@ -17,11 +16,13 @@ body
 }
 h2
 {
-    font-size:medium;
+    font-size:xx-large;
     font-weight: italic;
     color:blue;
     font-style: italic;
     text-align:center;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #connect
 {
