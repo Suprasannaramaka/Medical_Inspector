@@ -1,9 +1,11 @@
 body
 {
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV4f72bxQhbd6TKxvl8Kb5ncIKnu8Fkf38HA&s"); 
     background-repeat: no-repeat; 
     background-position:center;
     background-size:cover;
+    height:100%;
+    margin:0%;
+    background: linear-gradient( to bottom, #b5d4c2,#fff);
 }
 h1{
     color:#fff;
@@ -114,6 +116,7 @@ div.info
 {
   display: inline-block;
   background-color: #fff;
+  background: linear-gradient(#fff,#b0b6c0);
   border-radius: 10px;
   box-shadow: 0 4px 6px black;
   text-align:center;
@@ -249,14 +252,14 @@ div.gallery
 {  
   align-content: center;
   align-items: center;
-  border-radius:30%;
+  border-radius:50%;
   width:250px;
   height:150px;
    
 }
 .footer
 {
- background-color:black;
+  background:linear-gradient(to bottom, #0077c0,#000);
 width: 100%;
 width: 100%;
 }
