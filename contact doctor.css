@@ -6,7 +6,7 @@ body
  background-repeat: no-repeat;
  background-position: center;
  background-size:contain;
-background-color: rgb(179, 202, 216);
+ background: linear-gradient(to top,#597172,#ddebdd);
 }
 .image
 {
@@ -127,7 +127,7 @@ p
     font-style: italic;
     font-family: cursive;
     color:black;
-    text-align:center;
+    text-align:justify;
 }
 .grid-container
 {
