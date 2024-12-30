@@ -1,9 +1,11 @@
 body
 {
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV4f72bxQhbd6TKxvl8Kb5ncIKnu8Fkf38HA&s"); 
     background-repeat: no-repeat; 
     background-position:center;
     background-size:cover;
+    height:100%;
+    margin:0%;
+    background: linear-gradient( to bottom, #b5d4c2,#fff);
 }
 h1{
     color:#fff;
@@ -16,23 +18,28 @@ h2{
    font-style: italic;
     text-align: center;
 }
-.ul
-{
- align-items:last baseline;
+ul {
+  list-style-type: none;
+  padding-left: 50px;
+  overflow:hidden;
+  height:auto;
+  background-color: #333;
 }
-span.a
-{
- display: inline-block;
-  margin-right: 1ch;
-  width: 125px;
-  height: 25px;
-  padding: 2px;
-  border:2px solid rgb(141, 192, 179);    
-  background-color: rgb(228, 238, 235); 
-  border-radius: 20px;
-  font-family: cursive;
-  text-align: center;
+
+li {
+  float:inline-start;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align:end;
+  padding: 30px 16px;
   text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 .top-inks{
   display: flex;
@@ -44,22 +51,12 @@ span.a
 {
   text-align:center;
   align-content:center;
-  text-align:center;
-  align-content:center;
   color:#fff;
-  font-style: italic;
+  font-style:italic;
   font-size: medium;
-  border-radius: 70%;
+  border-radius:70%;
   background-color: rgb(5, 12, 51);
-  height:40px;
-  width:230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-style: italic;
-  font-size: medium;
-  border-radius: 70%;
-  background-color: rgb(5, 12, 51);
-  height:40px;
+  height:60px;
   width:230px;
   padding-left: 15px;
   padding-right: 15px;
@@ -233,30 +230,31 @@ div.gallery
   color:#fff;
   text-decoration: none;
 }
-.md
+.cards
 {
-  display:inline-block;
-  border: 3px solid rgb(93, 22, 22);
-  align-items: center;
+  width: 400px;
+  height:300px;
+  box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  width:700px;
-  height:auto;
-  border-radius: 30%;
-  margin:10px 40px 10px 50px;
-  padding:10px;
+  display: inline-block;
+  margin:5px 5px 5px 5px;
+}
+div.container {
+  padding: 10px;
 }
 .md img
 {  
   align-content: center;
   align-items: center;
-  border-radius:30%;
-  width:250px;
+  border-radius:50%;
+  width:150px;
   height:150px;
+  margin:10px;
    
 }
 .footer
 {
- background-color:black;
+  background:linear-gradient(to bottom, #0077c0,#000);
 width: 100%;
 width: 100%;
 }
